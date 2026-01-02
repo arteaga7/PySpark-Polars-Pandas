@@ -2,6 +2,6 @@ pandas
 openpyxl
 matplotlib
 numpy
-seaborn
 ipykernel
 pyspark
+polars
