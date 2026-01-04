@@ -1,17 +1,21 @@
 # PySpark-Polars-Pandas
-A comparative between PySpark, Polars and Pandas for data analysis is presented.
+A comparative between PySpark, Polars and Pandas commnds for data analysis is presented.
 
 ## 🌎 Repository Structure
 ```
 PySpark-Polars-Pandas/
 │
 ├── .gitignore
-├── main.py
-├── env/                # Virtual enviroment
+├── env/                        # Virtual enviroment
 └── requirements.txt
 └── Notebooks                   # Contains all Jupyter Notebooks
     └── pyspark_config.ipynb    # PySpark configuration (VSCode, Google Colab and Databricks)
-    └── DA1.ipynb       # PySpark, Polars and Pandas commands for DEA
+    └── DA1.ipynb               # PySpark, Polars and Pandas commands for DEA (part 1)
+    └── DA2.ipynb               # PySpark, Polars and Pandas commands for DEA (part 2)
+└── images                      # Contains all images used in pyspark_config.ipynb
+    └── ...
+└── data                        # Contains all csv files used in the notebooks
+    └── ...
 ```
 ## ✨ Details
 **pyspark_config.ipynb**: Shows how to set the enviroment to use PySpark in VSCode (locally), Google Colab and Databricks. See this notebook first of all.
