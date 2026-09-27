@@ -1,5 +1,5 @@
 # PySpark-Polars-Pandas
-A comparative between PySpark, Polars and Pandas commnds for data analysis is presented.
+A comparative between PySpark, Polars and Pandas commands for data analysis is presented.
 
 ## 🌎 Repository Structure
 ```
@@ -18,12 +18,12 @@ PySpark-Polars-Pandas/
     └── ...
 ```
 ## ✨ Details
-**pyspark_config.ipynb**: Shows how to set the enviroment to use PySpark in VSCode (locally), Google Colab and Databricks. See this notebook first of all.
+- **pyspark_config.ipynb**: Shows how to set the enviroment to use PySpark in VSCode (locally), Google Colab and Databricks. See this notebook first of all.
 
-**DA1.ipynb**: Data Exploratory Analysis Commands are shown by using PySpark, Polars and Pandas.
+- **DA1.ipynb**: Data Exploratory Analysis Commands are shown by using PySpark, Polars and Pandas.
 
 
-## 🚀 How to run locally
+## 🚀 How to run
 1. Clone this repository:
 ```
 git clone https://github.com/arteaga7/PySpark-Polars-Pandas.git
@@ -40,6 +40,8 @@ uv pip install --link-mode=copy -r requirements.txt
 
 For Linux:
 ```
-python -m venv env && source env/bin/activate && pip install -r requirements.txt
+uv venv venv
+source venv/bin/activate
+uv pip install -r requirements.txt
 ```
-3. Run "pyspark_config.ipynb".
+3. Run "Notebooks/pyspark_config.ipynb" or run any other Notebook by using Databricks (recommended).
