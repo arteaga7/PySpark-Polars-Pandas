@@ -32,9 +32,10 @@ git clone https://github.com/arteaga7/PySpark-Polars-Pandas.git
 
 For Windows:
 ```
-python -m venv env
-env/Scripts/activate
-pip install -r requirements.txt
+uv venv venv
+Set-ExecutionPolicy Unrestricted -Scope Process
+venv\Scripts\Activate.ps1
+uv pip install --link-mode=copy -r requirements.txt
 ```
 
 For Linux:
